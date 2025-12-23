@@ -11,6 +11,14 @@ int main (){
 	
 	//กรอก Code เฉพาะส่วนนี้ ให้สอดคล้องกับโจทย์และ Code ส่วนอื่น ๆ 
 	//โดยห้ามแก้ไข Code ในส่วนอื่น ๆ
+    dest << "-------------------- BOOM ---------------------" << endl;
+
+    string line;
+    while (getline(source, line)) {
+        dest << line << endl;
+    }
+
+    dest << "-------------------- HA!! ---------------------" << endl;
 
     source.close();
     dest.close();
